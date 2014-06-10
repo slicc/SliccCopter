@@ -1,0 +1,17 @@
+{
+  "name": "SliccCopter",
+  "description": "Server to provide SliccCopter Comms",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": {
+    "name": "Me",
+    "email": "me@me.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.4.1",
+    "less-middleware": "^1.0.3",
+    "vash": "^0.7.12-1"
+  },
+  "devDependencies": {}
+}
