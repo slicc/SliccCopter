@@ -12,9 +12,11 @@ app.set("view engine", "vash");
 var routeInit = require("./controllers/routeInit");
 routeInit.init(app);
 
-//set the location for static resources
+//initialise lessification
 var lessMiddleware = require('less-middleware');
 app.use(lessMiddleware(__dirname + '/public'));
+
+//set the location for static resources
 app.use(express.static(__dirname + "/public"));
 
 //start the server off

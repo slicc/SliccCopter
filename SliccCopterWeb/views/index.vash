@@ -1,16 +1,15 @@
 @html.extend('layout', function(model){
+
+	@html.block("head", function(model){
+		<link href="/css/index.css" rel="stylesheet"/>
+	})
 	
 	@html.block("body", function(model){
-
-	<div class="container">
-		<div class="row">
-
-			<h1>@model.title</h1>
-			<p>This is from the server!</p>
-
+  	<div class="logo">
+  		<img src="../images/blackcrow.png" />
 		</div>
-	</div>
 
+		@html.include("components/signinpanel");
 	})
 
 })

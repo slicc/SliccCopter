@@ -4,7 +4,7 @@
 
 		//home routing
 		app.get("/", function(req, res){
-			res.render("index", {title: "Express + Vash"})
+			res.render("index", {title: ""})
 		});
 
 	};

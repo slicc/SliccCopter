@@ -1,0 +1,32 @@
+@import "variables.less";
+@import "site.less";
+@import "signinpanel.less";
+
+#mainContent {
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.logo {
+	display: inline-block;
+	position: absolute;
+	width: 20%;
+	max-width: 100px;
+	right: 20px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+@media (max-width: @xs-screen-width) {
+	.logo {
+		display: none;
+	}
+	#mainContent {
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
