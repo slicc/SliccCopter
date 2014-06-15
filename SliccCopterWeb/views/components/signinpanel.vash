@@ -18,7 +18,7 @@
 				    Remember me
 				  </label>
 				</div>
-				<button class="btn-primary" id="login-button" type="submit">Log In</button>
+				<button class="btn-primary" id="login-button" type="submit">Sign In</button>
 				<div><a href="/account/recover">I've forgotten my password</a></div>
 				<div><a href="/account/signup">Create a new account</a></div>
 			</div>
