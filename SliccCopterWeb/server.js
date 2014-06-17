@@ -19,7 +19,8 @@ app.use(lessMiddleware(__dirname + '/public'));
 //set the location for static resources
 app.use(express.static(__dirname + "/public"));
 
-//start the server off
-http.createServer(app).listen(1337, '127.0.0.1');
+//start the server off on a port provided by azure if available
+var port = process.env.PORT || 1337;
+http.createServer(app).listen(port);
 
-console.log('Server running at http://127.0.0.1:1337/');
+console.log('Server running at: ' + port);
