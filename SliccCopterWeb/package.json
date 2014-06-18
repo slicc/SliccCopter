@@ -11,8 +11,8 @@
   "dependencies": {
     "express": "^4.4.1",
     "less-middleware": "^1.0.3",
-    "vash": "^0.7.12-1",
-    "mongodb": "^1.4.6"
+    "mongodb": "^1.4.7",
+    "vash": "^0.7.12-1"
   },
   "devDependencies": {}
 }
